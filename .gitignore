@@ -1,0 +1,24 @@
+# ===== TERRAFORM =====
+*.tfvars
+terraform.tfvars
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*.tfplan
+.terraform/
+.terraform.lock.hcl
+
+# ===== OS FILES =====
+.DS_Store
+Thumbs.db
+
+# ===== IDE FILES =====
+.vscode/
+.idea/
+
+# ===== PRIVATE KEYS =====
+*.pem
+*.key
+*.pub
